@@ -1,0 +1,21 @@
+Inicie o programa e leia o nível de combustível.
+
+Aplique um desvio condicional "if" para verificar se o nível de combustível é inferior a 20%.
+
+Se verdadeiro, exiba a mensagem: "Nível de combustível baixo. Alerta!"
+
+Se falso, prossiga para o próximo passo.
+
+Leia os dados de orientação da nave.
+
+Utilize um desvio condicional "if" para verificar se a nave está fora da rota programada.
+
+Se verdadeiro, acione o sistema de correção de trajetória.
+
+Se falso, continue para o próximo passo.
+
+Verifique as condições climáticas, identificando tempestades solares.
+
+Aplique um desvio condicional "if" para ativar o protocolo de proteção da nave em caso de tempestade solar.
+
+Se verdadeiro, exiba a mensagem: "Ativando protocolo de proteção contra tempestade solar."
