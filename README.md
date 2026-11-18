@@ -1,6 +1,7 @@
 # Wonder Lab 🦋
 
 ![C](https://img.shields.io/badge/C-3d46c6?style=for-the-badge)
+![Javascript](https://img.shields.io/badge/Javascript-F0D92A?style=for-the-badge)
 ![Kotlin](https://img.shields.io/badge/Kotlin-a97bff?style=for-the-badge)
 
 ## About ✨
