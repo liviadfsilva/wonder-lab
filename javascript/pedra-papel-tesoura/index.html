@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jokenpô</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/icon/controller-icon.png" />
 </head>
 <body>
     <h1>Pedra • Papel • Tesoura</h1>    
     <br>
     <div class="choices">
-        <button onclick="playGame"('pedra')>👊🏻</button>
-        <button onclick="playGame"('papel')>✋🏻</button>
-        <button onclick="playGame"('tesoura')>✌🏻</button>
+        <button onclick="playGame('Pedra')">👊🏻</button>
+        <button onclick="playGame('Papel')">✋🏻</button>
+        <button onclick="playGame('Tesoura')">✌🏻</button>
     </div>
     <br>
     <div id="playerDisplay">JOGADOR: </div><br>
     <div id="computerDisplay">COMPUTADOR: </div><br>
-    <div id="resultDisplay">RESULTADO: </div><br>
+    <div id="resultDisplay"></div><br>
     
+    <script src="index.js"></script>
 </body>
 </html>
