@@ -5,10 +5,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #f0d3ff;
 }
 
 h1{
-    font-size: 36px;
+    font-size: 46px;
     color:cornflowerblue;
 }
 
@@ -17,24 +18,37 @@ h1{
 }
 
 .choices button{
-    font-size: 46px;
+    font-size: 50px;
     min-width: 160px;
     margin: 0, 10px;
     border-radius: 250px;
-    background-color: rgb(255, 230, 249);
+    border:0;
+    background-color: #fff7ef;
     cursor: pointer;
     transition: background-color 0.5s ease;
 }
 
 .choices button:hover{
-    background-color: rgb(255, 130, 226);
+    background-color: #ffd7ac;
 }
 
 #playerDisplay, #computerDisplay{
-    font-size: 26px;
+    font-size: 30px;
 }
 
 #resultDisplay{
-    font-size: 26px;
+    font-size: 30px;
     margin: 30px 0;
+}
+
+.greenText{
+    color:green;
+}
+
+.redText{
+    color: red;
+}
+
+.yellowText{
+    color: rgb(255, 255, 31);
 }
